@@ -1,0 +1,37 @@
+{
+  "name": "plato_the_lawyer",
+  "owner": {
+    "name": "John Pendenque",
+    "email": "pendenquejohn@gmail.com"
+  },
+  "metadata": {
+    "description": "AI-powered critical thinking article and discourse analyzer for professional debaters"
+  },
+  "plugins": [
+    {
+      "name": "plato_the_lawyer",
+      "source": {
+        "source": "github",
+        "repo": "plato_the_lawyer/plato_the_lawyer-claude-skills"
+      },
+      "description": "AI-powered critical thinking article and discourse analyzer for professional debaters",
+      "version": "1.0.0",
+      "author": {
+        "name": "plato_the_lawyer"
+      },
+      "repository": "https://github.com/Zadigo/llm_skills/tree/main/plato_the_lawyer",
+      "license": "MIT",
+      "keywords": [
+        "critical thinking",
+        "professional debaters",
+        "article analyzer",
+        "discourse analyzer",
+        "epistemology",
+        "logic",
+        "argumentation",
+        "rhetoric"
+      ],
+      "category": "productivity"
+    }
+  ]
+}
