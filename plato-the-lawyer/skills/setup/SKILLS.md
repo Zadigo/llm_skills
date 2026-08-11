@@ -104,11 +104,11 @@ You're all set! Here's a summary of your preferences and profile:
 
 You're read to use:
  
-- /plato analyze
-- /plato counter
-- /plato discourse
-- /plato sources
-- /plato authors
+- /plato:analyze
+- /plato:counter
+- /plato:discourse
+- /plato:sources
+- /plato:authors
 ```
 
 ---

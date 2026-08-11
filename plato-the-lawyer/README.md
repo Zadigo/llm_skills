@@ -6,11 +6,11 @@
 
 | Skill                | Command              | Quick description                                                                          |
 | -------------------- | -------------------- | ------------------------------------------------------------------------------------------ |
-| Setup                | `/plato setup`     | On-boards the user by setting up the preferences for the plugin                            |
-| Analyze              | `/plato analyze`   | Analyze a discourse or an article                                                          |
-| Create counter point | `/plato counter`   | After analyzing an article write a simple counterpoint using the user's preferred sources |
-| Create discourse     | `/plato discourse` | After analyzing an article write a discourse                                               |
-| Get sources          | `/plato sources`   | List the sources preferred by the user                                                     |
+| Setup                | `/plato:setup`     | On-boards the user by setting up the preferences for the plugin                            |
+| Analyze              | `/plato:analyze`   | Analyze a discourse or an article                                                          |
+| Create counter point | `/plato:counter`   | After analyzing an article write a simple counterpoint using the user's preferred sources |
+| Create discourse     | `/plato:discourse` | After analyzing an article write a discourse                                               |
+| Get sources          | `/plato:sources`   | List the sources preferred by the user                                                     |
 
 ## Installation
 
