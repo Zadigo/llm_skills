@@ -12,14 +12,14 @@
       "name": "plato-the-lawyer",
       "source": {
         "source": "github",
-        "repo": "plato-the-lawyer/plato-the-lawyer-claude-skills"
+        "repo": "Zadigo/plato-the-lawyer"
       },
       "description": "AI-powered critical thinking article and discourse analyzer for professional debaters",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "plato-the-lawyer"
       },
-      "repository": "https://github.com/Zadigo/llm_skills/tree/main/plato_the_lawyer",
+      "repository": "https://github.com/Zadigo/plato-the-lawyer",
       "license": "MIT",
       "keywords": [
         "critical thinking",
