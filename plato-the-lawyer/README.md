@@ -21,7 +21,7 @@
 * In Cowork, go to **Plugins** (left sidebar) and click the **+** button
 * Select **Upload plugin**
 * Drag and drop the downloaded zip file, then click **Upload**
-* Run `/platro setup` to get started
+* Run `/plato:setup` to get started
 
 ### Using Claude CLI
 

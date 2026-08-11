@@ -4,7 +4,7 @@ Provides a collection of skills for LLMs to perform various tasks. Each skill is
 
 ## Skills
 
-| Name                                             | Description                                                                                                                            |
-| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
-|  [Plato The Lawyer](./plato_the_lawyer/README.md) | This skill allows users to quickly analyze articles from an epistemological manner by identifying arguments, plan, logical fallies etc |
-|                                                  |                                                                                                                                        |
+| Name                                            | Description                                                                                                                            |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| [Plato The Lawyer](./plato-the-lawyer/README.md) | This skill allows users to quickly analyze articles from an epistemological manner by identifying arguments, plan, logical fallies etc |
+|                                                 |                                                                                                                                        |
