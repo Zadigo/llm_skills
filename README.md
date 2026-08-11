@@ -34,7 +34,7 @@ claude plugin marketplace add https://github.com/Zadigo/proficiently-claude-skil
 claude plugin install proficiently@proficiently
 
 # 3. Run setup
-/plato setup
+/plato:setup
 ```
 
 ## File structure
@@ -49,31 +49,15 @@ plato/
 │   ├── templates/
 │   │   └── profile.md                  # Work history profile template
 │   └── references/
-│       ├── fit-scoring.md              # Canonical fit scoring criteria
 │       ├── data-directory.md           # Data directory resolution algorithm
-│       ├── prerequisites.md            # Prerequisites checking by skill
-│       ├── browser-setup.md            # Browser automation setup sequence
-│       ├── ats-patterns.md            # ATS navigation patterns (Greenhouse, Lever, Workday)
 │       └── priority-hierarchy.md       # Instruction priority hierarchy
 ├── skills/
+│   ├── analyze/
+│   │   ├── SKILL.md
+│   │   └── scripts/
 │   ├── setup/
 │   │   ├── SKILL.md
-│   │   └── scripts/
-│   ├── job-search/
-│   │   ├── SKILL.md
 │   │   ├── assets/templates/
-│   │   └── scripts/
-│   ├── tailor-resume/
-│   │   ├── SKILL.md
-│   │   └── scripts/
-│   ├── cover-letter/
-│   │   ├── SKILL.md
-│   │   └── scripts/
-│   ├── network-scan/
-│   │   ├── SKILL.md
-│   │   └── scripts/
-│   ├── apply/
-│   │   ├── SKILL.md
 │   │   └── scripts/
 │   └── jobsearch-telegram/
 │       └── SKILL.md
@@ -87,10 +71,6 @@ plato/
 ├── resume/                             # Your resume PDF/DOCX
 ├── profile.md                          # Work history from interview
 ├── preferences.md                      # Job matching rules
-├── linkedin-contacts.csv               # LinkedIn connections (optional)
-├── job-history.md                      # Running log from job-search
-├── company-careers.json                # Cached careers page URLs
-├── network-scan-history.md             # Running log from network-scan
 ├── application-data.md                # Reusable form field answers
 └── jobs/                               # One folder per application
     ├── google-lead-gpm-2026-02-11/
