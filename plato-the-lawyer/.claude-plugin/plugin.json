@@ -1,13 +1,13 @@
 {
-  "name": "plato_the_lawyer",
+  "name": "plato-the-lawyer",
   "description": "AI-powered job search, resume tailoring, and cover letter writing",
   "version": "1.1.0",
   "author": {
-    "name": "plato_the_lawyer",
+    "name": "plato-the-lawyer",
     "url": "https://johnpm-consulting.fr"
   },
   "homepage": "https://johnpm-consulting.fr",
-  "repository": "https://github.com/Zadigo/llm_skills/tree/main/plato_the_lawyer",
+  "repository": "https://github.com/Zadigo/llm_skills/tree/main/plato-the-lawyer",
   "license": "MIT",
   "keywords": [
     "critical thinking",
