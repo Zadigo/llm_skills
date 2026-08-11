@@ -26,8 +26,10 @@ Classify the deductive argument in one of the following categories:
 * **Disjunctive syllogism:** Either P or Q. Not P, therefore Q.
 * **Categorical syllogism:** All P are Q. All Q are R. Therefore, all P are R.
 
+**modus ponens**
+
 ```LaTeX
-((A \to B) \land A) \to B)
+(P \rightarrow Q) \wedge P \Rightarrow Q
 ```
 
 ### Phase 1.3: Decompose the argument in one of P or Q
