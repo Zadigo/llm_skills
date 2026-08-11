@@ -2,148 +2,25 @@
 name: analyze
 description: Analyze an article or document and provide an analysis of the content
 ---
+# Analysis guide
 
+## Overview
+
+Analyze the core structure of an article or a discourse by dissecting the content into its main logical components.
+
+---
 
 ## Workflow
 
-### Step 1: Get the introduction of the article or document
+### Phase 1: Get the content
 
-Read the introduction of the article or document to understand the main topic and purpose of the content. This will help you to identify the key points and arguments that will be discussed.
+Ask the user to upload a file or content that contains the article or discourse to analyze if there is none.
 
-### Step 2: Get all the main titles
+Before analyzing the file, ask the user to briefly describe the type of the content. After this question you should know either if the content is either an `article` or `argument`. Ask the user whether article is part of a dissertation, a scientific article, a news article or any other type of content.
 
-Read through the article or document and identify all the main titles excluding the subtitles.
+### Phase 2: Choose between article and argument workflow
 
-### Step 3: Get the main paragraphs under each main title
-
-Read through the article or document and identify the main paragraphs. You should focus on identifying the main *linking words* in the paragraphs:
-
-* Introduction: First, firstly, first of all, to begin with, to start with, at the beginning, in the beginning, in the first place, first and foremost
-* Sequencing: First (ly), second (ly), third (ly), then, next, also, another point is that, additionally, eventually, finally, furthermore, moreover, subsequently
-* Introducing examples: as follows, as exemplified by, above all, especially, for example, for instance, like, mainly, namely, notably, particularly/in particular, this includes/including, such as
-* Conclusion: all in all, at last, at the end (of), finally, generally, in conclusion, in the end, on the whole, overall, to conclude, to sum up 
-
-### Step 4: Verify with the user
-
-Ask the user if the summary is accurate and if they would like to make any changes. If the user wants to make changes, ask them to provide specific feedback on what they would like to change. Once the user is satisfied with the summary, you can proceed to the next step.
-
-### Step 5: Identify the plan used by the article
-
-Generally, the type of interrogation used by the problematic statement will determine the plan used by the article. Here are the types of plans that you will consider:
-
-**By concept**
-
-This plan tries to explain all related concepts to the theme of the article:
-
-1. Economic
-2. Social
-3. Political
-
-**Inventory/Categorization**
-
-This plan lists the arguments and examples that support the theme as an inventory:
-
-1. Argument 1
-2. Argument 2
-3. Argument 3
-
-**Dialectical**
-
-This plan presents the arguments and counterarguments to the theme of the article:
-
-* Thesis: The article presents an argument in favor of the theme.
-* Antithesis: The article presents a counterargument against the theme.
-* Synthesis: The article presents a conclusion that reconciles the thesis and antithesis.
-
-**Comparative**
-
-This plan compares arguments and examples from different perspectives or contexts:
-
-1. A vs B
-2. C vs D
-3. Conclusion: Differences between the two groups of arguments: A - B and C - D
-
-Or, alternatively, the plan can compare the arguments and examples from different perspectives or contexts:
-
-1. Similarities between A and B
-2. Differences between A and B
-3. Conclusion: Reformulation of the thesis into a new thesis that takes into account the similarities and differences between A and B
-
-**Analytical**
-
-This plan analyzes the arguments and examples from different perspectives or contexts:
-
-* Problems
-* Causes
-* Solutions
-
-### Step 6: Provide a summary of the article
-
-Once you have identified these elements, you can summarize the document using this template, providing it to the user for verification and feedback.
-
-```
-# Introduction
-
-[introduction]
-
-# Problematic Statement
-
-[problematic statement]
-
-Concept: [concept]
-Theme: [theme]
-Context: [context]
-
-# Plan
-
-[plan]
-
-# [Main Title 1]
-
-Argument n°[number]: [argument]
-
-Proof n°[number]: [proof]
-
-# Conclusion
-
-[conclusion]
-```
-
-**Introduction**
-
-Summarize the introduction of the article or document in a few sentences. This should include the main topic and purpose of the content.
-
-**Problematic statement**
-
-The problematic statement should be clear and concise and should follow this structure:
-
-* *theme* + *context [geographical scope] and [time frame]*
-
-So for example, if the article is about the benefits of exercise, you might summarize the statement as follows:
-
-* What are the benefits of exercise for individuals in the United States in 2021?
-
-Now depending on the article you might have to adjust the structure of the question to fit the context of the article. For example on the theme of mental health, you might summarize the statement as follows:
-
-* How can exercise help to improve mental health for individuals in the United States in 2021?
-* Does exercise have a positive impact on mental health for individuals in the United States in 2021?
-
-**Plan**
-
-Make a best gues for the plan used. If you are not sure you can ask the user to provide feedback on the plan used. The plan should be clear and concise and should follow the structure of the plans provided in Step 5.
-
-For instance, if the article is based on an inventory plan, you might summarize the plan as follows:
-
-1. Argument 1: Exercise improves physical health
-2. Argument 2: Exercise improves mental health
-3. Argument 3: Exercise improves social health
-
-You do not need to be exhaustive because the main idea is to help the user quickly understand the structure of the article or document.
-
-**Concept or scope**
-
-It is the global concept or scope of the article or document. It should be a single word that captures the essence of the content. For example, if the article is about the benefits of exercise, the concept could be "health" or "fitness".
-
+if the content is an article, resolve the [/srcripts/article](./scripts/article) otherwise, if it's an argument, resolve [/scripts/argument](./scripts/argument).
 
 ---
 
