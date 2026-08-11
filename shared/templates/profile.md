@@ -4,7 +4,7 @@
 
 ---
 
-## Debatter overview
+## Debater overview
 
 **Core expertise:** [2-3 sentence summary of what this person does best]
 **Best topics for debate:** [List of topics this person excels at debating]

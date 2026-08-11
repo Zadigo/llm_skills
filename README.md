@@ -1,3 +1,5 @@
+d
+
 # Plato The Lawyer
 
 **Plato the lawyer** is Claude plugin that allows the user to analyse a discourse by referencing the different biases and logical fallacies within it.
@@ -50,7 +52,7 @@ plato/
 │   │   └── profile.md                  # Work history profile template
 │   └── references/
 │       ├── data-directory.md           # Data directory resolution algorithm
-│       └── priority-hierarchy.md       # Instruction priority hierarchy
+│       └── ...     
 ├── skills/
 │   ├── analyze/
 │   │   ├── SKILL.md
@@ -68,12 +70,11 @@ plato/
 
 ```
 `~/.plato/
-├── resume/                             # Your resume PDF/DOCX
-├── profile.md                          # Work history from interview
-├── preferences.md                      # Job matching rules
-├── application-data.md                # Reusable form field answers
-└── jobs/                               # One folder per application
-    ├── google-lead-gpm-2026-02-11/
+├── debating-profile.md                 # The debatting profile of the user
+├── authors.csv                         # List of authors
+├── sources.csv                			# List of sources
+└── topics/                               # One folder per application
+    ├── topic-name-2026-02-11/
     │   ├── posting.md                  # Saved job description
     │   ├── resume.md                   # Tailored resume
     │   ├── cover-letter.md             # Cover letter
