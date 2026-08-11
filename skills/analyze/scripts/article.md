@@ -116,6 +116,8 @@ Proof n°[number]: [proof]
 [conclusion]
 ```
 
+**de
+**
 
 ## Phase 4: Verify with the user
 
