@@ -2,6 +2,7 @@
 name: setup
 description: Onboarding - set preferences
 argument-hint: "category" the preferred category for the analysis
+tools: Google Drive,Onedrive,Gmail
 ---
 # Setup skill
 

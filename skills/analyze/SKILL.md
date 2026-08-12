@@ -22,6 +22,8 @@ Before analyzing the file, ask the user to briefly describe the type of the cont
 
 if the content is an article, resolve the [/srcripts/article](./scripts/article) otherwise, if it's an argument, resolve [/scripts/argument](./scripts/argument).
 
+Consider an article to be a text with multiple paragraphs where as an argument would be one or multiple lines or eventually just a singe paragraph.
+
 ---
 
 ## Permissions Required
