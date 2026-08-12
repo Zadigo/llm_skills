@@ -31,10 +31,10 @@ d
 ```Shell
 
 # 1. Add the repository as a marketplace
-claude plugin marketplace add https://github.com/Zadigo/proficiently-claude-skills.git
+claude plugin marketplace add https://github.com/Zadigo/plato-the-lawyer-skills.git
 
 # 2. Install the plugin
-claude plugin install proficiently@proficiently
+claude plugin install zadigo@plato-the-lawyer
 
 # 3. Run setup
 /plato:setup

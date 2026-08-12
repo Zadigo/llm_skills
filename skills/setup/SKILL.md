@@ -10,8 +10,8 @@ Onboard the user by setting up his preferences
 
 ## Quick start
 
-* `/plato setup`
-* `plato setup category`
+* `/plato:setup`
+* `/plato:setup category`
 
 ## File structure
 

@@ -1,5 +1,3 @@
- 
-
 ---
 
 name: expand
@@ -7,7 +5,7 @@ name: expand
 description: Expand a problematic statement in a list of arguments that can be used in a debate
 
 hint: "problematic statement" the argument to expand
-----------------------------------------------------
+---
 
 # Expansion guide
 
