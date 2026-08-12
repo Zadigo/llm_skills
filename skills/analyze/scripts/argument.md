@@ -25,6 +25,7 @@ Classify the deductive argument in one of the following categories:
 * **Hypothetical syllogism:** If P, then Q. If Q, then R. Therefore, if P, then R.
 * **Disjunctive syllogism:** Either P or Q. Not P, therefore Q.
 * **Categorical syllogism:** All P are Q. All Q are R. Therefore, all P are R.
+* **Constructive or destructive dilemma:** All P are Q. All R are S. P or R. Therefore Q or S.
 
 ### Phase 1.3: Decompose the argument in one of P or Q
 
@@ -61,12 +62,15 @@ This analysis which is a quick check of the argument's validity will run over th
 * [ ] The negation of a conjunction is the disjunction of the negations / If not (P and Q), then not P or not Q / P or Q should be true if the negation of a conjunction in the proposition is true.
 
 **Double Negation**
+
 * [ ] The negation of a negation is the affirmation / If not (not P), then P / P should be true if the negation of a negation in the proposition is true.
 
-## Phase X: Summary
+## Phase 3: Summary
+
+Write a summary called `propositional logic` for each arguments  present int the content using this template:
 
 ```Markdown
-# Argument analysis
+# Arguments analysis
 
 Argument: [argument]
 Argument type: [inductive or deductive] ([misleading induction, overgeneralization, single experience] if inductive)
@@ -76,11 +80,12 @@ Argument type: [inductive or deductive] ([misleading induction, overgeneralizati
 if [P], then [Q]. [P] is true, therefore [Q] is true (if modus ponens)
 if [P], then [Q]. [Q] is false, therefore [P] is false (if modus tollens)
 if [P], then [Q]. if [Q], then [R]. therefore, if [P], then [R] (if hypothetical syllogism)
-either [P] or [Q]. not [P], therefore [Q] (if disjunctive syllogism)
+either [P] or [Q], not [P], therefore [Q] (if disjunctive syllogism)
 all [P] are [Q]. all [Q] are [R]. therefore, all [P] are [R] (if categorical syllogism)
+all [P] are [Q]. all [R] are [S]. [P] or [R], therefore [Q] or [S] (if constructive dilemma, adjust accordingly for destructive dilemma)
 
-Contrapositive: if not [Q], then not [P].
-Obverse: if [P], then not not [Q].
+Contrapositive: if not [Q], then not [P] (for each proposition)
+Obverse: if [P], then not not [Q] (for each proposition)
 
 ## Summary of the logical fallacies
 

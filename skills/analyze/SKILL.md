@@ -1,6 +1,7 @@
 ---
 name: analyze
 description: Analyze an article or document and provide an analysis of the content
+allowed-tools: Read, Write, google-drive:read_file_content, dropbox:GetFileContent
 ---
 # Analysis guide
 
@@ -20,7 +21,7 @@ Before analyzing the file, ask the user to briefly describe the type of the cont
 
 ### Phase 2: Choose between article and argument workflow
 
-if the content is an article, resolve the [/srcripts/article](./scripts/article) otherwise, if it's an argument, resolve [/scripts/argument](./scripts/argument).
+if the content is an article, resolve the [/scripts/article](./scripts/article.md) otherwise, if it's an argument, resolve [/scripts/argument](./scripts/argument.md).
 
 Consider an article to be a text with multiple paragraphs where as an argument would be one or multiple lines or eventually just a singe paragraph.
 

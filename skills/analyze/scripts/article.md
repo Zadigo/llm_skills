@@ -105,7 +105,7 @@ Context: [context]
 
 [plan]
 
-# [Main Title 1]
+# [bloc title]
 
 Linking word: [linking word]
 Argument n°[number]: [argument]
@@ -116,13 +116,11 @@ Proof n°[number]: [proof]
 [conclusion]
 ```
 
-**de
-**
-
 ## Phase 4: Verify with the user
 
 Ask the user if the summary is accurate and if they would like to make any changes. If the user wants to make changes, ask them to provide specific feedback on what they would like to change. Once the user is satisfied with the summary, you can proceed to the next step.
 
+---
 
 **Introduction**
 
@@ -158,3 +156,44 @@ You do not need to be exhaustive because the main idea is to help the user quick
 **Concept or scope**
 
 It is the global concept or scope of the article or document. It should be a single word that captures the essence of the content. For example, if the article is about the benefits of exercise, the concept could be "health" or "fitness".
+
+**Bloc title**
+
+Represents the title of the section under which the argument is located
+
+**Linking word**
+
+The linking word if available that starts the argument if avaiable for example *first of all*.
+
+**Assumption**
+
+The schematical assumption made by the argument. Follow the pattern modus tolens, modus ponens, hypothetical syllogism, disjunctive syllogism or categorical syllogism. So for example, or an argument that states that "sports is great for health because it increases ", the assumption template would be "IF A (sports) THEN B (health), A (sports) then B (health)". You must represent the logic in KaTex by choosing one of the LaTex below. By default, if the user has not specified a format, use the subscript or visual valuation method.
+
+*Subcript method*
+
+```LaTeX
+\cfrac{A_{\text{x}} \to B_{\text{y}}, \neg B_{\text{y}}}{\therefore \neg A_{\text{x}}}
+```
+
+*Underbrace Method*
+
+```LaTeX
+\cfrac{\underbrace{A}_{\text{x}} \to \underbrace{B}_{\text{y}}, \neg B}{\therefore \neg A}
+```
+
+*Explicit Valuation Method*
+
+```LaTeX
+\cfrac{A \to B, \neg B}{\therefore \neg A}
+\quad \text{where } 
+\begin{cases} 
+A \in \text{x} \\ 
+B \in \text{y} 
+\end{cases}
+```
+
+*Predicate Logic Notation*
+
+```LaTeX
+\cfrac{\forall x (T(x) \to C(x)), \neg C(s)}{\therefore \neg T(s)}
+```
