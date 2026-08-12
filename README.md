@@ -13,6 +13,7 @@ d
 | Create counter point | `/plato:counter`   | After analyzing an article write a simple counterpoint using the user's preferred sources |
 | Create discourse     | `/plato:discourse` | After analyzing an article write a discourse                                               |
 | Get sources          | `/plato:sources`   | List the sources preferred by the user                                                     |
+| Expand               | `/plato:expand`    | Expand a problematic statemtent to a list of usable arguments                              |
 
 ## Installation
 
@@ -52,7 +53,7 @@ plato/
 │   │   └── profile.md                  # Work history profile template
 │   └── references/
 │       ├── data-directory.md           # Data directory resolution algorithm
-│       └── ...     
+│       └── ...   
 ├── skills/
 │   ├── analyze/
 │   │   ├── SKILL.md
